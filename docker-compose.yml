@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  telegramgame:
+    image: telegramgame
+    build:
+      context: ./TelegramGame
+      dockerfile: Dockerfile

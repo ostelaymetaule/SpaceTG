@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramGame", "TelegramGame\TelegramGame.csproj", "{27E6E04A-892E-46C6-AA00-F5568EFDCECF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F0657BA8-4CCE-4F49-9BB7-BDF254A0A9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramGame.Lib", "TelegramGame.Lib\TelegramGame.Lib.csproj", "{D68A6916-D1C4-4FCC-B809-5C90F74857DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E6E04A-892E-46C6-AA00-F5568EFDCECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E6E04A-892E-46C6-AA00-F5568EFDCECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E6E04A-892E-46C6-AA00-F5568EFDCECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E6E04A-892E-46C6-AA00-F5568EFDCECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0657BA8-4CCE-4F49-9BB7-BDF254A0A9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0657BA8-4CCE-4F49-9BB7-BDF254A0A9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0657BA8-4CCE-4F49-9BB7-BDF254A0A9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0657BA8-4CCE-4F49-9BB7-BDF254A0A9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68A6916-D1C4-4FCC-B809-5C90F74857DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68A6916-D1C4-4FCC-B809-5C90F74857DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68A6916-D1C4-4FCC-B809-5C90F74857DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68A6916-D1C4-4FCC-B809-5C90F74857DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC797ECA-539B-4ACE-9990-1D9D7BF68B66}
+	EndGlobalSection
+EndGlobal
