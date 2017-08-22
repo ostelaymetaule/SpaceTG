@@ -11,7 +11,10 @@ namespace TelegramGame.Lib
             Fuel,
             Water,
             Crew,
-            RediationLevel
+            RediationLevel,
+            Speed,
+            Cargo,
+            Moral
         }
 
         public AssetNames Name { get; set; }
